@@ -1,0 +1,56 @@
+#result{
+    height:calc(100vh - 125px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-name: display;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    gap:40px;
+}
+.result-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+#info{
+    font-size: 14px;
+}
+@keyframes display{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.5;;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#result>p>span{
+    color:red
+}

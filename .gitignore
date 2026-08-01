@@ -1,0 +1,73 @@
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# Backend — Python / Flask
+# ============================================================
+
+# Dataset (large binary files — share via Drive/Kaggle instead)
+backend/Dataset/
+
+# Trained model weights (binary, regenerate via train.py)
+backend/model_weights.h5
+backend/weights/
+
+# User-uploaded images at runtime
+backend/static/Uploads/
+
+# Python bytecode
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+backend/venv/
+backend/.venv/
+backend/env/
+
+# PyCharm / IntelliJ
+backend/.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# ============================================================
+# Frontend — React / Node
+# ============================================================
+
+# Dependencies (reinstall via npm install)
+frontend/node_modules/
+
+# Production build output
+frontend/build/
+
+# Test coverage
+frontend/coverage/
+
+# Environment variables
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ============================================================
+# General
+# ============================================================
+*.log
+*.swp
+*.swo
+.env

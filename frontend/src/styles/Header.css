@@ -1,0 +1,9 @@
+#header{
+    box-shadow: 0 0 4px 0px rgb(255, 255, 255);
+    padding:10px;
+    font-style: italic;
+}
+#logo{
+    font-size: 36px;
+    margin: 0
+  }

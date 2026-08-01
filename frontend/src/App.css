@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  height:100vh;
+}
+button{
+  transition-duration: 0.5s;
+}
+button:active{
+  transform: scale(0.9);
+}
