@@ -1,6 +1,6 @@
 # Deepfake Detection using Deep Learning
 
-Detects deepfake images using a custom CNN (Meso4) trained on a real/fake face dataset. The system exposes a Flask REST API and a React-based web UI where users can upload an image and get a real-time prediction. **This was my undergrad final year major project.**
+Detects deepfake images using a custom CNN (Meso4) trained on a real/fake face dataset. The system exposes a Flask REST API and a React-based web UI where users can upload an image and get a real-time prediction. **This was my undergrad final year project.**
 
 ## Project Structure
 
